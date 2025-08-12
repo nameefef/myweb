@@ -1,0 +1,79 @@
+/* 基础样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #24292e; /* GitHub主题色 */
+}
+
+h2 {
+    color: #00a1d6; /* B站主题色 */
+    margin-top: 0;
+}
+
+/* 链接容器 */
+.link-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.link-item {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    border-left: 4px solid #00a1d6;
+}
+
+/* 链接样式 */
+a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #00a1d6;
+    text-decoration: underline;
+}
+
+/* B站链接特殊样式 */
+.bilibili-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #f4f9ff;
+    border-radius: 4px;
+}
+
+.bilibili-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eaecef;
+    color: #6a737d;
+    font-size: 14px;
+}
